@@ -28,7 +28,7 @@ for line in file_input:
 	if counter > 2:
 		currentline = line.split(',')
 		file_output.write( currentline[1] + '@ufl.edu, ')
-	counter += + 1
+	counter += 1
 
 file_input.close()
 file_output.close()
